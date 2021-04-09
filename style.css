@@ -1,0 +1,240 @@
+body{
+    margin-left:200px ;
+    margin-right:200px ;
+    margin-top: 70px;
+}
+
+#leftside{
+    float: left;
+}
+
+#rightimg{
+    float: right;
+}
+
+#rightimg ul li{
+    display: inline;
+}
+
+#leftside #text{
+    float: right;
+    line-height:0;
+    padding-left: 7px;
+    position: relative;
+    bottom: 5px;
+}
+
+#leftside #logo{
+    float:left
+}
+
+#leftside h2{
+    font-family: 'Playball', cursive;
+    font-style: italic;
+    font-size: 32px;
+}
+
+#leftside p{
+    position:relative;
+    bottom: 7px;
+    color: gray;
+    font-size: 8px;
+}
+
+#horline{
+    position: relative;
+    top: 30px;
+    
+}
+
+
+#horline hr {
+     width: 100%;
+     height: 12px;
+     border: 0;
+     box-shadow: inset 0 12px 12px -12px gray;
+       
+}
+
+
+#subhr{
+    position: relative;
+    top: 60px;
+}
+
+#leftsubhr{
+    float: left;
+    line-height: 0;
+}
+
+#date{
+    font-size: 11px;
+    color: gray;
+    position: relative;
+    bottom: 7px;
+}
+
+#chp{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;}
+
+#rightsubhr {
+float: right;
+position: relative;
+top: 60px;
+}
+
+#rightsubhr img {
+    float: left;
+} 
+
+#rightsubhr p{
+    float: right;
+    position: relative;
+    color: lightgray;
+    bottom: 22px;
+}
+
+#bigimg{
+    width: 100%;
+    margin-top: 80px;
+}
+
+#passage{
+    color: gray;
+    font-size: 25px;
+}
+
+#ingredient{
+    background-image: url('img/list-bg.png');
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Chilanka', cursive;
+    font-weight: 600;
+}
+
+
+#leftform {
+    float: left;
+    position: relative;
+    left: 70px;
+    top: 60px;
+    line-height: 20px;
+}
+
+#rightform {
+    float: right;
+    position: relative;
+    top: 60px;
+    right: 180px;
+    line-height: 20px;
+
+}
+
+
+label{ 
+   color: gray;
+   word-wrap:break-word;
+   font-size: 25px;
+}
+
+.strike{
+    -webkit-text-decoration-line: line-through; 
+   text-decoration-line: line-through; 
+}
+
+
+#horline2{
+    width: 100%;
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px gray;
+    position: relative;
+    top: 45px;
+}
+
+
+article{
+    position: relative;
+    top: 70px;
+}
+
+
+#leftarticle{
+    float:left;
+}
+
+#rightarticle{
+    float: right;
+}
+
+
+#van{
+    float: left;
+    position: relative;
+    top: 25px;
+
+}
+
+#vaninfo{
+    float: right;
+    position: relative;
+    left: 15px;
+    color:rgb(82, 80, 80);
+    
+}
+
+#vaninfo p{
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+}
+
+#vaninfo h3{
+    font-size: 25px;
+}
+
+#rightarticle {
+    background-color: rgba(177, 63, 63, 0.904);
+    height: 65px;
+    width: 250px;
+position: relative;
+top: 50px;
+}
+
+#rightarticle p{
+    text-align: center;
+    line-height: 20px;
+    color:lightgray;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+
+}
+
+
+footer{
+    position: relative;
+    margin-top: 300px;
+}
+
+#footerimg{
+    background-color: white;
+    width:80px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    bottom:28px;
+}
+
+#copy{
+    text-align: center;
+    color: grey;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 150px;
+}
